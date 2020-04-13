@@ -1,0 +1,149 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2rem;
+}
+.mainBox{    padding: 0 0 0 50px ;
+}
+h1{
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+    /* NAVBAR */
+
+.navbar{
+    font-family: 'Raleway', sans-serif;
+    padding:2% 0;
+
+}
+a.nav-link{
+    margin: 0 1.5rem;
+    color: #000;
+}
+
+/* BOX1 */
+#box1{
+    margin-top: 100px;
+}
+.bigImg{
+    float: right;
+}
+.box1H,.box1Para{
+    width: 42%;
+}
+.form1{
+    width:20%;
+    display: inline;
+    margin-right: 20px;
+}
+.btn{
+    width: 180px;
+}
+
+        /* BOX2 */
+#box2{
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 400px 0 0;
+    padding-bottom: 100px;
+    
+}
+
+.arrowlink{
+    text-decoration: underline;
+    color: hsl(170, 45%, 43%) ;
+}
+.testBox{
+    box-shadow: 0 0 7px grey;
+    border-radius: 10px;
+    padding:50px;
+    line-height: 2rem;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.testImg{
+    border-radius: 100px;
+    width: 50px;
+}
+
+/* BOX3 */
+.box3{
+    background-color:hsl(238, 22%, 44%) ;
+    color: #fff;
+    padding :100px;
+}
+
+.form-control{
+    margin-bottom: 20px;
+}
+
+/* FOOTER1 */
+.footer1{
+padding: 100px;
+background-color: hsl(243, 87%, 12%);
+color: #fff;
+}
+
+.footRow{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+ul{margin: 0;}
+li{list-style: none;}
+
+.col-md-1{
+    position: absolute;
+}
+span{
+    margin-left: 35px;
+
+}
+
+.soc{
+    margin: 0 7px;
+    color: #fff;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/* Media Query */
+
+@media(max-width:990px){
+
+    .nav-item, .navbar-nav{
+        display: inline-block;
+    }
+    /* body{text-align: center;} */
+    .bigImg{
+        width:90%;
+        display: inline-block;
+    }
+    .box1H{margin-top: 40px;}
+    .box1H,.box1Para{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+    }
+    .testBox{width:90%}
+    .box3{
+        text-align: center;
+        padding:50px;
+    }
+    .btn, .form1,.form2{
+        width: 380px;
+        margin: 10px auto;
+    }
+    .col-md-1{
+        padding:0;
+    }
+    .col-md-4, ul{
+        margin: 15px 0;
+    }
+    .footer1{padding:40px}
+    li{margin-top: 10px;}
+    .col-md-2{ text-align: center;}
+}
